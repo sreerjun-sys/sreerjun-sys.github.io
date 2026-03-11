@@ -2,6 +2,9 @@
    main.js — Portfolio Interactions
    ============================================= */
 
+// Gate all scroll animations on JS being available
+document.body.classList.add('js-animate');
+
 // -- NAV: Scroll shadow + active link highlighting --
 const navbar = document.getElementById('navbar');
 const navLinks = document.querySelectorAll('.nav-links a:not(.nav-cta)');
